@@ -48,7 +48,7 @@ svg {
 .card {
     display: grid;
     background-color: var(--dark_desaturated_blue);
-    max-width: 69.5rem;
+    max-width: 21rem;
     margin: 0 auto 5vh;
     border-radius: 0.5rem;
     overflow: hidden;
@@ -120,6 +120,7 @@ svg {
 
     .card {
         grid-template-columns: 1.06fr 1fr;
+        max-width: 69.5rem;
         text-align: revert;
     }
 
